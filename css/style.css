@@ -1,0 +1,789 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+
+.row {
+    margin-bottom: 0px !important;
+}
+
+
+nav {
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.btncar {
+    position: relative;
+    z-index: 1000;
+}
+
+
+.btncar .fa {
+    font-size: 50px!important;
+    top: 90px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sidenav {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.sidenav-trigger {
+    display: none;
+}
+
+.sidenav li {
+    line-height: 0px !important;
+}
+
+.sidenav li>a>i,
+.sidenav li>a>[class^="mdi-"],
+.sidenav li>a li>a>[class*="mdi-"],
+.sidenav li>a>i.material-icons {
+    color: white !important;
+}
+
+.sidenav li>a {
+    color: white !important;
+    padding: 0px !important;
+}
+
+.socialmediaphone {
+    display: flex;
+    margin: 0% 20%;
+}
+
+.menudesktop {
+    position: relative !important;
+    right: 5% !important;
+}
+
+nav a {
+    color: white !important;
+}
+
+
+.menucenter {
+    left: 8%;
+    transition: all, ease-in-out 0.5s;
+}
+
+#socialmedia {
+    position: relative;
+    float: right;
+    right: 5%;
+}
+
+.fa {
+    font-size: 20px !important;
+}
+
+#logo {
+    display: inline;
+    position: relative;
+    left: 5%;
+    transition: all, ease-in-out 0.5s;
+}
+
+#logo h5,
+p {
+    display: inline;
+}
+
+#logo img {
+    border-style: none;
+    width: 70px;
+    position: relative;
+    float: left;
+    top: 7px;
+}
+
+
+#logophone {
+    display: inline;
+    position: relative;
+    left: -14%;
+    top: -50px;
+}
+
+#logophone h5,
+p {
+    display: inline;
+}
+
+#logophone p {
+    font-size: 10px !important;
+}
+
+#logophone h5 {
+    font-size: 20px !important;
+}
+
+#logophone img {
+    border-style: none;
+    width: 80px;
+    position: relative;
+    top: -30px;
+    left: 50%;
+}
+
+
+* {
+    color: white;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid-2 {
+    width: 50%;
+}
+
+.grid-4 {
+    width: 25%;
+}
+
+.grid-7 {
+    width: 75%;
+}
+
+.grid-12 {
+    width: 100%;
+}
+
+.pic {
+    position: relative;
+    margin: auto 30px;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    border: 2px solid white;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale();
+}
+
+#titleSlider {
+    border-radius: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.90);
+    width: 600px;
+    height: 600px;
+    padding: 5% 0%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#titleSlider img {
+    width: 60%;
+}
+
+#titlesection {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    opacity: 0.5;
+
+}
+
+#titlesection h1 {
+    text-align: left;
+    font-size: 200px;
+}
+
+#titlesection h5 {
+    position: relative;
+    text-align: left;
+    font-size: 100px;
+    top: -155px;
+    left: 52%;
+}
+
+#serviceconta {
+    position: relative;
+    background: linear-gradient(0deg, rgba(36, 0, 0, 1) 13%, rgba(73, 41, 27, 1) 60%, rgba(106, 39, 21, 1) 100%);
+}
+
+#bgvideo {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#bgvideo video {
+    width: 100%;
+}
+
+#teamcontainer {
+    width: 100%;
+}
+
+#teamtext {
+    text-align: left;
+}
+
+
+#teamtext h5 {
+    white-space: pre;
+    text-align: left;
+}
+
+#servicebg {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    transition: opacity, ease-in-out 0.5s;
+}
+
+
+#services {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#titleserviceinfo {
+    position: relative;
+}
+
+#titleserviceinfo h1 {
+    font-size: 100px;
+}
+
+#serviceinfo h3 {
+    font-size: 20px !important;
+}
+
+.carousel .carousel-item {
+    height: 100px !important;
+    border-bottom: none !important;
+}
+
+.carousel .carousel-item .fa {
+    font-size: 50px !important;
+}
+
+.carousel h5 {
+    font-size: 14px;
+}
+
+#iconscar {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+
+}
+
+#iconscar img {
+    width: 50px;
+}
+
+.servicein {
+    padding: 2% 0%;
+    margin: 0px 20px;
+    border-bottom: 2px solid transparent;
+    transition: all, ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.servicein h5 {
+    font-size: 20px;
+}
+
+
+#serviceinfo {
+    position: relative;
+    transition: all, ease-in-out 0.2s;
+}
+
+#serviceinfo h2 {
+    text-align: left !important;
+}
+
+#contin {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 15%;
+}
+
+#contactinfo {
+    position: relative;
+    top: 10%;
+}
+
+#contact {
+    background-color: #f7941d;
+}
+
+.input-field>label {
+    color: white !important;
+}
+
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+    border-bottom: 1px solid white !important;
+}
+
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+}
+
+input:not([type]):focus:not([readonly])+label,
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+input[type=password]:not(.browser-default):focus:not([readonly])+label,
+input[type=email]:not(.browser-default):focus:not([readonly])+label,
+input[type=url]:not(.browser-default):focus:not([readonly])+label,
+input[type=time]:not(.browser-default):focus:not([readonly])+label,
+input[type=date]:not(.browser-default):focus:not([readonly])+label,
+input[type=datetime]:not(.browser-default):focus:not([readonly])+label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,
+input[type=tel]:not(.browser-default):focus:not([readonly])+label,
+input[type=number]:not(.browser-default):focus:not([readonly])+label,
+input[type=search]:not(.browser-default):focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #cacaca !important;
+}
+
+@media only screen and (max-width: 1600px) {
+
+    #bgvideo video {
+        width: 150%;
+        height: 100%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #bgvideo  {
+        overflow: hidden;
+    }
+
+
+    #contin {
+        width: 85%;
+    }
+
+    .servicescont {
+        position: relative !important;
+        top: 5% !important;
+    }
+
+    #titleSlider {
+        width: 500px;
+        height: 500px;
+
+    }
+
+    #titlesection h1 {
+        font-size: 150px;
+    }
+
+    h5 {
+        font-size: 15px !important;
+    }
+
+    #contactinfo {
+        margin: 0px auto;
+    }
+
+    #titleserviceinfo h1 {
+        font-size: 65px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1366px) and (orientation: landscape) {
+
+    .section {
+        height: 100vh;
+    }
+
+    #titleSlider {
+        top: 50%;
+    }
+
+    #titlesection {
+        top: 15%;
+        left: 0;
+    }
+
+    #titlesection h1 {
+        font-size: 100px;
+        text-align: center;
+    }
+
+    #contin {
+        top: 25%;
+    }
+
+    #contactinfo {
+        top: 20%;
+    }
+
+    .servicescont {
+        top: 15% !important;
+    }
+
+    #titleserviceinfo h1 {
+        font-size: 50px;
+    }
+
+    #bgvideo {
+        overflow: hidden;
+    }
+
+    #bgvideo video {
+        width: 150%;
+        height: 100%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+    #contin {
+        width: 95%;
+    }
+
+    #titlesection h1 {
+        font-size: 100px;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+
+    nav {
+        position: fixed;
+        z-index: 999;
+        backdrop-filter: none !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+    nav .nav-wrapper {
+        display: none;
+    }
+
+    .sidenav-trigger {
+        display: block;
+        position: sticky;
+        z-index: 1000;
+        float: left;
+        top: 10px;
+        left: 10px;
+    }
+
+    .menuphone {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 25%;
+    }
+
+    #logo {
+        display: none;
+    }
+
+
+    #titleSlider {
+        width: 400px;
+        height: 400px;
+    }
+
+    #desktopnav {
+        display: none;
+    }
+
+    .phonemenu {
+        display: block;
+
+    }
+
+    #bgvideo {
+        overflow: hidden;
+    }
+
+    #bgvideo video {
+        width: 160%;
+        height: 60%;
+        position: relative;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .section {
+        height: 55vh;
+    }
+
+    #titleserviceinfo h1 {
+        font-size: 50px;
+    }
+
+    #contactinfo {
+        top: 10%;
+    }
+
+    #titlesection {
+        top: 10%;
+        left: 0%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #titleSlider {
+        width: 250px;
+        height: 250px;
+    }
+
+    #titlesection {
+        top: 5%;
+        left: 0;
+    }
+
+    .servicescont {
+        top: 0% !important;
+    }
+
+    #contin {
+        top: 10%;
+    }
+
+    #contactinfo {
+        top: 5%;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+
+    .section {
+        height: 70vh;
+    }
+
+    #bgvideo video {
+        width: 190%;
+        height: 90%;
+        position: relative;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    #titlesection h1 {
+        font-size: 75px;
+    }
+
+    #team {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    #teamcontainer {
+        width: 100%;
+        margin: 25px 0px;
+        justify-content: center;
+    }
+
+    #serviceinfo h3 {
+        font-size: 25px;
+    }
+
+
+}
+
+/*PHONE*/
+
+@media only screen and (max-width: 414px) and (orientation: portrait) {
+
+
+    .pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    h5 {
+        font-size: 10px !important;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #contin {
+        top: 10%;
+    }
+
+    .section {
+        height: 85vh;
+    }
+
+    #titleSlider {
+        width: 250px;
+        height: 250px;
+    }
+
+    #bgvideo video {
+        width: 420%;
+        height: 260%;
+        position: relative;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #titleSlider img {
+        width: 75%;
+    }
+
+    #titlesection h1 {
+        font-size: 50px;
+    }
+
+    #services {
+        top: -15%;
+    }
+
+    .servicescont {
+        top: 15% !important;
+    }
+
+    #serviceinfo h3 {
+        font-size: 15px !important;
+    }
+
+    #titleserviceinfo h1 {
+        font-size: 25px;
+    }
+
+    #contactinfo {
+        top: 5%;
+    }
+
+    .carousel .carousel-item .fa {
+        font-size: 30px !important;
+    }
+
+    
+
+
+
+}
+
+@media only screen and (max-width: 375px) and (orientation: portrait) {
+
+    #bgvideo video {
+        width: 500%;
+    }
+
+    .section {
+        height: 95vh;
+    }
+}
+
+
+@media only screen and (max-width: 360px) and (orientation: portrait) {
+    .section {
+        height: 100vh;
+    }
+
+    #titlesection h1 {
+        font-size: 30px;
+    }
+
+    #bgvideo {
+        height: 105vh;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+    .section {
+        height: 100vh;
+    }
+
+    #titlesection h1 {
+        font-size: 30px;
+    }
+
+}
